@@ -1,0 +1,33 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+.MyFirstDiv{
+    border: 5px outset rgb(10, 10, 10);
+    background-color: rgb(238, 154, 244);
+    background-image: url(https://t4.ftcdn.net/jpg/04/04/40/49/360_F_404404954_WGYZtTwswIrXnJl6qVeEFK5UWPFflVB8.jpg);
+    background-size: cover;
+    text-align: center;  
+    margin-left: 50px;
+    padding: 100px;
+    color: aliceblue;
+}
+.Div2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1em outset rgb(0, 0, 0);
+    background-color: red;
+    background-image: linear-gradient(to bottom right,red, yellow); 
+    text-align: center;
+    height: 450px;
+    width: 500px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
