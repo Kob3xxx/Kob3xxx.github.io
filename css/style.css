@@ -1,12 +1,13 @@
 #welcome{
-    background-image: url(/images/blueprint3.jpg);
+    background-image: url(/images/programmer.jpg);
     background-size: 100% 100%;
     color: antiquewhite;
     height: 100vh;
     display: flex;
-    text-align: center;
+    text-align:center;
     justify-content: center;
     align-items: center;
+    
 }
 html, body{
     margin: 0px;
@@ -15,10 +16,12 @@ html, body{
 #welcome h1{
     font-family: sans-serif;
     font-size: 3em;
+    margin-bottom: 8em;
+
 }
 
 .nav{  
-    background-image: linear-gradient(to right,rgb(250, 147, 4), rgb(65, 54, 227)); 
+    background-image: linear-gradient(to top,rgb(21, 21, 21), rgba(196, 196, 198, 0.829)); 
 }
 .nav ul{
     margin: 0;
@@ -33,7 +36,7 @@ html, body{
 .nav a{
     text-decoration: none;
     display: inline-block;
-    color: rgb(3, 3, 3);
+    color: rgb(241, 236, 236);
     padding: 0.3em;
     
 }
@@ -52,7 +55,7 @@ html, body{
 .main-nav{
     position: fixed;
     width: 100%;
-    text-align: right;
+    text-align: top center;
     font-size: 1.5em;
     font-weight: bold;
 
@@ -91,9 +94,10 @@ html, body{
 }
 
 #footer{
-    margin: 10px;
+    margin: 0px;
     border: 4px sold rgba(0, 0,0, 1.0);
-    background-image: linear-gradient(to right,rgb(250, 147, 4), rgb(65, 54, 227));
+    background-image: linear-gradient(to bottom,rgb(254, 254, 254), rgb(86, 85, 85));
+    
     
 }
 
@@ -102,7 +106,7 @@ html, body{
 
 }
 #footer ul{
-    margin: 0;
+    margin: 0em;
 }
 
 #footer a{
@@ -139,3 +143,77 @@ html, body{
     font-family: Papyrus;
     font-size: 2em;
 }
+
+#ut-welcome{
+    background-image: url(/images/programmer.jpg);
+    background-size: 100% 100%;
+    color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+#ut-welcome h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    margin-bottom: 8em;
+}
+
+#ut-about{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'picture main main';
+    height: 100vh;
+    margin: 2em 10em 10em;
+}
+
+.ut-about-image{
+    grid-area: picture;
+    float: left;
+    margin: 15px;
+}
+
+#ut-footer{
+    margin: 0px;
+    border: 4px sold rgba(0, 0,0, 1.0);
+    background-image: linear-gradient(to bottom,rgb(254, 254, 254), rgb(86, 85, 85));
+    
+    
+}
+
+#ut-footer li{
+    display: inline;
+
+}
+#ut-footer ul{
+    margin: 0;
+}
+
+#ut-footer a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0.2em;
+    
+}
+
+#ut-footer a:hover{
+    background-color: rgba(0, 255, 255, 0.8);
+}
+
+#ut-footer{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 2em;
+}
+.ut-footer{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
