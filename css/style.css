@@ -12,6 +12,8 @@
 html, body{
     margin: 0px;
     padding: 0px;
+    max-width: initial;
+    overflow-x: hidden;
 }
 #welcome h1{
     font-family: sans-serif;
@@ -21,7 +23,7 @@ html, body{
 }
 
 .nav{  
-    background-image: linear-gradient(to top,rgb(21, 21, 21), rgba(196, 196, 198, 0.829)); 
+    background-image: linear-gradient(to top,rgb(20, 22, 44), rgba(196, 196, 198, 0.829)); 
 }
 .nav ul{
     margin: 0;
